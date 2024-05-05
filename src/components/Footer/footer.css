@@ -1,0 +1,235 @@
+.footer{
+    box-sizing: border-box;
+    font-family: Poppins, 'sans-serif';
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.footer .footer-box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    background-color: #eaf0fc;
+    border-radius: 0.5rem;
+    padding:2rem;
+}
+.footer-box .footer-up{
+    display: grid;
+    grid-template-columns: 2.2fr 1fr 1fr 1fr;
+    gap: 6rem;
+}
+
+.footer-up .foot-brand, .footer-up .foot-company,.foot-company .sub-head-items{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.foot-brand .brand-img img{
+    width: 14rem;
+}
+
+.foot-brand .brand-punch-line{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    text-align: justify;
+    line-height: 1.2;
+    color: grey;
+    padding: 0 1.5rem;
+}
+
+.foot-brand .brand-social{
+    display: flex;
+    gap: 1.2rem;
+    padding: 0 1.2rem;
+    margin-top: 0.5rem;
+    font-size: 1.7rem;
+}
+
+.footer-up .foot-company .foot-sub-head{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.foot-company .sub-head-items .sub-item-link{
+    text-decoration: none;
+    color: grey;
+    font-size: 0.7rem;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+.foot-company .sub-head-items .sub-item-link:hover{
+    color: black;
+}
+
+.sub-head-items .sub-head-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.sub-head-items .sub-head-item .sub-icon{
+    color:#83adf0;
+}
+
+.sub-head-items .sub-head-item span{
+    font-size: 0.7rem;
+    align-self: center;
+    font-weight: 600;
+    color: grey;
+}
+
+.footer-box .footer-line{
+    border-bottom: 0.1rem solid lightgrey;
+    width: 100%;
+    margin: 1rem 0 ;
+}
+
+.footer-box .footer-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+@media (max-width:1027px){
+    .foot-brand .brand-img img{
+       width: 12rem;
+}
+
+.foot-brand .brand-punch-line{
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    text-align: justify;
+    line-height: 1.2;
+    color: grey;
+    padding: 0 1.5rem;
+}
+
+.foot-brand .brand-social{
+    display: flex;
+    gap: 1.2rem;
+    padding: 0 1.2rem;
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.footer-up .foot-brand, .footer-up .foot-company,.foot-company .sub-head-items{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+}
+
+@media (max-width:830px){
+    .foot-brand .brand-img img{
+       width: 9rem;
+}
+
+.foot-brand .brand-punch-line{
+    font-size: 0.6rem;
+    margin-top: 1rem;
+    text-align: justify;
+    line-height: 1.2;
+    color: grey;
+    padding: 0 1.5rem;
+}
+
+.foot-brand .brand-social{
+    display: flex;
+    gap: 1.2rem;
+    padding: 0 1.2rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.footer-up .foot-brand, .footer-up .foot-company,.foot-company .sub-head-items{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.footer-box .footer-up{
+    display: grid;
+    grid-template-columns: 2.2fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.footer-box .footer-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+}
+
+@media (max-width:450px){
+    .foot-brand .brand-img img{
+       width: 5rem;
+}
+
+.foot-brand .brand-punch-line{
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+    text-align: justify;
+    line-height: 1;
+    color: grey;
+    padding: 0 0.5rem;
+}
+
+.foot-brand .brand-social{
+    display: flex;
+    gap: 1.2rem;
+    padding: 0 1.2rem;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+
+.footer-box .footer-up{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.footer-box .footer-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+    font-weight: 600;
+}
+
+.footer-up .foot-company .foot-sub-head{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.foot-company .sub-head-items .sub-item-link{
+    text-decoration: none;
+    color: grey;
+    font-size: 0.5rem;
+    font-weight: 600;
+    transition: all .5s;
+}
+.foot-company .sub-head-items span, .foot-company .sub-head-items{
+    font-size: 0.5rem;
+}
+
+.footer .footer-box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    background-color: #eaf0fc;
+    border-radius: 0.5rem;
+    padding:2rem;
+}
+}

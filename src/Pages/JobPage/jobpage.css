@@ -1,0 +1,175 @@
+.jobpage{
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    padding: 5rem 6rem;
+    background-color: whitesmoke;
+}
+
+.jobpage .jobpage-head{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+}
+
+.jobpage-head .jobpage-title{
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.jobpage-head .jobpage-title-desc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.jobpage .jobpage-main{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.jobpage-main .jobpage-desc {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.jobpage-desc .description-head{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.jobpage-desc .description-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.description-content p{
+    text-align: justify;
+    font-size: 0.8rem;
+}
+
+.jobpage-main .jobpage-apply{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.jobpage-apply .apply-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.jobpage-apply .apply-head{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.apply-input .apply-label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apply-label .apply-input-title{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.apply-label input, .apply-label textarea{
+    font-size: 0.72rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 0.2rem;
+    width: 60%;
+
+}
+
+.apply-label textarea{
+    height: 5rem;
+}
+
+.apply-label input:focus, .apply-label textarea:focus{
+    outline: none;
+}
+
+.apply-label .file-input{
+    background-color: transparent ;
+    cursor: pointer;
+}
+
+.apply-form button{
+background-color: transparent;
+  color:  #83adf0;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  border:0.1rem solid  #83adf0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all .3s;
+  cursor: pointer;
+  width: 6rem;
+}
+
+.apply-form button:hover{
+    background-color: #83adf0;
+  color: white;
+}
+
+@media(max-width:830px){
+    .jobpage .jobpage-head{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.jobpage-head .jobpage-title{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.jobpage .jobpage-main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.jobpage-apply .apply-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    margin-top: 2rem;
+}
+}
+
+@media(max-width:770px){
+    .jobpage{
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    padding: 2rem;
+    background-color: whitesmoke;
+}
+}
+
+@media(max-width:450px){
+   .jobpage-head .jobpage-title{
+    font-weight: 600;
+    font-size: 2rem;
+} 
+
+.jobpage-head .jobpage-title-desc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    font-size: 0.8rem;
+}
+}

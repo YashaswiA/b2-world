@@ -1,0 +1,126 @@
+.serviceBox{
+    box-sizing: border-box;
+    font-family: Poppins, 'sans-serif';
+    width: 20rem;
+    height: 31rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    padding: 1rem;
+    
+}
+
+.serviceBox .service-img{
+    overflow: hidden;
+}
+
+.serviceBox .service-img img{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    transition: all .7s ease-in-out;
+}
+
+.serviceBox .service-name{
+    margin-bottom: 1rem;
+}
+
+.serviceBox .service-name span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.serviceBox .service-intro{
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1.4;
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+.serviceBox .service-box-link{
+     display: inline-block;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: all .7s ease-in-out;
+}
+
+.serviceBox:hover .service-img img{
+    transform: scale(1.13);
+}
+
+.serviceBox:hover .service-box-link{
+    color:#83adf0;
+    transform: translateX(1rem) scale(1.1);
+}
+
+@media(max-width:830px){
+    .serviceBox{
+    box-sizing: border-box;
+    font-family: Poppins, 'sans-serif';
+    width: 16rem;
+    height: 24.5rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    padding: 1rem; 
+}
+
+.serviceBox .service-name{
+    margin-bottom: 0.5rem;
+}
+.serviceBox .service-name span{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.serviceBox .service-intro{
+    font-size: 0.75rem;
+    text-align: justify;
+    line-height: 1.1;
+    color: grey;
+    margin-bottom: 0.2rem;
+}
+
+.serviceBox .service-box-link{
+     display: inline-block;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 600;
+    transition: all .7s ease-in-out;
+}
+}
+
+@media (max-width:450px){
+    .serviceBox{
+    box-sizing: border-box;
+    font-family: Poppins, 'sans-serif';
+    width: 10rem;
+    height: 17rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    padding: 0.5rem; 
+}
+
+.serviceBox .service-name{
+    margin-bottom: 0.2rem;
+}
+.serviceBox .service-name span{
+    font-size: 0.65rem;
+    font-weight: 600;
+}
+
+.serviceBox .service-intro{
+    font-size: 0.5rem;
+    text-align: justify;
+    line-height: 1;
+    color: grey;
+    margin-bottom: 0.2rem;
+}
+
+.serviceBox .service-box-link{
+     display: inline-block;
+    color: black;
+    font-size: 0.5rem;
+    font-weight: 600;
+    transition: all .7s ease-in-out;
+}
+}

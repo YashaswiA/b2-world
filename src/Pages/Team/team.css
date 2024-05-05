@@ -1,0 +1,267 @@
+.team{
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.team .teams-head{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    margin-top: 3rem;
+    padding: 1rem 6rem;
+}
+
+.teams-head .teams-head-title{
+    font-size: 4.5rem;
+    font-weight: 600;
+    padding: 2rem;
+
+}
+.teams-head .teams-head-img{
+    padding: 1rem;
+}
+
+.teams-head .teams-head-img img{
+    width: 100%;
+}
+
+.team .team-mems{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+    padding: 1rem 6rem;
+}
+
+.team-mems .team-mem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.team-mem .team-mem-img{
+    height: 15rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+.team-mem .team-mem-img img{
+    width: 15rem;
+    border-radius: 7rem 2rem 7rem 2rem;
+    border: 0.3rem solid lightgrey;
+}
+
+.team-mem .team-mem-name{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.team-mem .team-mem-desig{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: grey;
+}
+
+/*join us*/
+.team .join-us{
+    box-sizing: border-box;
+    padding: 2rem 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:3rem;
+    place-items: center;
+    margin-top: 3rem;
+    background-color: whitesmoke;
+}
+
+.join-us .join-us-img{
+    padding: 1rem;
+}
+
+.join-us .join-us-img img{
+    width: 100%;
+}
+
+.join-us .join-us-body .join-us-head{
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.join-us .join-us-body .join-us-content{
+    font-size: 1.2rem;
+    width: 80%;
+    line-height: 1.1;
+    color: grey;
+    margin-bottom: 3rem;
+}
+
+.join-us .join-us-body .join-us-butt button{
+    padding: 1rem;
+    width: 30%;
+    border-radius: 2rem;
+    font-size: 1.2rem ;
+    border: none;
+    font-weight: 600;
+    color: #83adf0;
+  border: 0.1rem solid #83adf0;
+  transition: all 0.3s;
+  background-color: transparent;
+
+}
+
+ .join-us-body .join-us-butt button:hover{
+  color:white;
+  background-color: #83adf0;
+}
+
+@media(max-width:830px){
+
+    .team .teams-head{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+    .teams-head .teams-head-title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 2rem;
+
+}
+
+.team .team-mems{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin-top: 3rem;
+    padding: 2rem ;
+}
+
+.team-mem .team-mem-img img{
+    width: 12rem;
+    border-radius: 5rem 2rem 5rem 2rem;
+    border: 0.3rem solid lightgrey;
+}
+
+.team .join-us{
+    box-sizing: border-box;
+    padding: 2rem ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+    place-items: center;
+    margin-top: 3rem;
+    background-color: whitesmoke;
+}
+
+.join-us .join-us-body .join-us-head{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.join-us .join-us-body .join-us-content{
+    font-size: 0.9rem;
+    width: 80%;
+    line-height: 1.1;
+    color: grey;
+    margin-bottom: 3rem;
+}
+
+.join-us .join-us-body .join-us-butt button{
+    padding: 0.8rem;
+    width: 30%;
+    border-radius: 2rem;
+    font-size: 0.9rem ;
+    border: none;
+    font-weight: 600;
+    color: #83adf0;
+  border: 0.1rem solid #83adf0;
+  transition: all 0.3s;
+  background-color: transparent;
+
+}
+}
+
+@media(max-width:450px){
+        .teams-head .teams-head-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 2rem;
+
+}
+
+.team-mem .team-mem-img{
+    height: 5rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+.team-mem .team-mem-img img{
+    width: 5rem;
+    border-radius: 2rem 0.5rem 2rem 0.5rem;
+    border: 0.1rem solid lightgrey;
+}
+
+.team-mem .team-mem-name{
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.team-mem .team-mem-desig{
+    font-size: 0.4rem;
+    font-weight: 600;
+    color: grey;
+}
+.team .team-mems{
+    gap: 1rem;
+    margin-top: 0rem;
+}
+
+.team .join-us{
+    box-sizing: border-box;
+    padding: 2rem ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
+    place-items: center;
+    margin-top: 0rem;
+    background-color: whitesmoke;
+}
+
+.join-us .join-us-body .join-us-head{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.join-us .join-us-body .join-us-content{
+    font-size: 0.6rem;
+    width: 80%;
+    line-height: 1.1;
+    color: grey;
+    margin-bottom: 3rem;
+}
+
+.join-us .join-us-body .join-us-butt button{
+    padding: 0.2rem;
+    width: 40%;
+    border-radius: 2rem;
+    font-size: 0.6rem ;
+    border: none;
+    font-weight: 600;
+    color: #83adf0;
+  border: 0.1rem solid #83adf0;
+  transition: all 0.3s;
+  background-color: transparent;
+
+}
+}
+
+

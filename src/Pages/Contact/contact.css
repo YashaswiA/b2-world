@@ -1,0 +1,249 @@
+.contactus {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+.contactus .contactus-main {
+  display: grid;
+  grid-template-columns: 1.8fr 0.5fr;
+  gap: 1rem;
+  margin: 1rem 13rem;
+  padding: 2rem;
+  box-shadow: 0 0 1rem rgba(128,128,128,0.5);
+    border-radius: 2rem;
+}
+
+.contactus .contactus-main-head {
+  margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.contactus .contactus-main-head span{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.contactus-main .contactus-main-img {
+
+  padding: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+.contactus-main .contactus-main-img img {
+    position: absolute;
+    left: -25rem;
+  width: 45rem;
+}
+
+.contactus-main .contactus-main-form{
+    padding: 2rem;
+    /* border: 1rem solid black; */
+}
+
+.contactus-main-form .contactus-main-form-head{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: grey;
+}
+
+.contactus-main-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.grid-2-col{
+  grid-column: span 2;
+}
+.contactus-main-form form .contactus-input .contactus-label{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 80%;
+}
+
+.contactus-main-form form .contactus-input .contactus-label .contactus-input-title{
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.contactus-main-form form .contactus-input .contactus-label input,.contactus-main-form form .contactus-input .contactus-label textarea{
+  border-radius: 1rem;
+  background-color:whitesmoke;
+  border: none;
+  padding: 0.5rem;
+  text-indent: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.contactus-main-form form .contactus-input .contactus-label input:focus,.contactus-main-form form .contactus-input .contactus-label textarea:focus{
+  outline: none;
+}
+
+.contactus-input .contactus-label .checkbox-inputs{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+
+}
+
+.contactus-input .contactus-label .checkbox-inputs label{
+  font-size: 0.8rem;
+}
+
+.contactus-main-form form .contactus-main-butt button{
+   border-radius:1.5rem;
+  padding: 0.8rem;
+  width: 50%;
+  background-color: transparent;
+  font-weight: 600;
+  color: #83adf0;
+  border: 0.1rem solid #83adf0;
+  transition: all 0.3s;
+}
+
+.contactus-main-form .thanks{
+  font-size: 1.1rem;
+  font-weight: 600;
+  width: 70%;
+}
+
+.contactus-main-form form .contactus-main-butt button:hover{
+  color: white;
+  background-color: #83adf0;
+}
+
+@media(max-width:1283px){
+.contactus-main .contactus-main-img img {
+    position: absolute;
+    left: -23rem;
+  width: 40rem;
+}
+}
+
+@media(max-width:1027px){
+  .contactus .contactus-main {
+  display: grid;
+  grid-template-columns: 1.8fr 0.5fr;
+  gap: 1rem;
+  margin: 1rem 6rem;
+  padding: 2rem;
+  box-shadow: 0 0 1rem rgba(128,128,128,0.5);
+    border-radius: 2rem;
+}
+
+.contactus-main .contactus-main-img img {
+    position: absolute;
+    left: -20rem;
+  width: 36rem;
+}
+}
+
+@media(max-width:830px){
+  .contactus .contactus-main {
+  display: grid;
+  grid-template-columns: 1.8fr 0.5fr;
+  gap: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: 0 0 1rem rgba(128,128,128,0.5);
+    border-radius: 2rem;
+}
+
+.contactus-main .contactus-main-img img {
+    position: absolute;
+    left: -18rem;
+    top:7rem;
+  width: 32rem;
+}
+}
+
+@media(max-width:450px){
+  .contactus .contactus-main-head span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.contactus .contactus-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: 0 0 1rem rgba(128,128,128,0.5);
+    border-radius: 0.5rem;
+}
+
+
+
+.contactus-main-form .contactus-main-form-head{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    color: grey;
+}
+
+.contactus-main-form form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.grid-2-col{
+  grid-column: span 1;
+}
+.contactus-main-form form .contactus-input .contactus-label{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
+}
+
+.contactus-main-form form .contactus-input .contactus-label .contactus-input-title{
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.contactus-main-form form .contactus-input .contactus-label input,.contactus-main-form form .contactus-input .contactus-label textarea{
+  border-radius: 1rem;
+  background-color:whitesmoke;
+  border: none;
+  padding: 0.5rem;
+  text-indent: 0.8rem;
+  font-size: 0.7rem;
+}
+
+
+.contactus-input .contactus-label .checkbox-inputs{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 1.3rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+
+}
+
+.contactus-input .contactus-label .checkbox-inputs label{
+  font-size: 0.7rem;
+}
+
+.contactus-main-form form .contactus-main-butt button{
+   border-radius:1rem;
+  padding: 0.8rem;
+  width: 100%;
+  background-color: transparent;
+  font-weight: 600;
+  color: #83adf0;
+  border: 0.1rem solid #83adf0;
+  transition: all 0.3s;
+  margin-top: 1rem;
+}
+.contactus-main .contactus-main-img{
+  display: none;
+}
+}

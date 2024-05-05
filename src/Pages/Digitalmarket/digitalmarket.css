@@ -1,0 +1,127 @@
+.digitalmarket{
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem 6rem;
+}
+
+.digitalmarket .digitalmarket-head{
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.digitalmarket .digitalmarket-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    place-items: center;
+}
+
+.digitalmarket-body .digitalmarket-body-img{
+    padding: 1rem;
+}
+
+.digitalmarket-body .digitalmarket-body-img img{
+    width: 100%;
+}
+
+.digitalmarket-body .digitalmarket-body-content{
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.digitalmarket-body .digitalmarket-body-content span{
+    display: block;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media(max-width:1283px){
+    .faq-accordion{
+        width: 100% !important;
+    }
+}
+
+@media(max-width:1027px){
+    .faq{
+    padding: 2rem;
+}
+    .digitalmarket{
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem ;
+}
+.digitalmarket-body .digitalmarket-body-content{
+    padding: 1rem;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.digitalmarket-body .digitalmarket-body-content span{
+    display: block;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.lets-talk{
+    padding: 2rem;
+}
+}
+
+@media(max-width:830px){
+    .digitalmarket .digitalmarket-head{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.lets-talk .talk-head{
+    font-size: 3rem !important;
+}
+
+.form-head{
+    font-size: 1rem !important;
+}
+
+}
+
+@media(max-width:770px){
+        .digitalmarket{
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+    padding: 2rem ;
+}
+}
+
+@media(max-width:450px){
+    .digitalmarket{
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+    padding: 1rem ;
+}
+
+    .digitalmarket .digitalmarket-head{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.digitalmarket .digitalmarket-body{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    place-items: center;
+}
+}

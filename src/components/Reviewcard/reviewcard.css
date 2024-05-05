@@ -1,0 +1,115 @@
+.review-card{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    height: 20rem;
+}
+.review-card .review-img{
+    margin-bottom: 1rem;
+}
+
+.review-card .review-img img{
+    width: 5rem;
+    border-radius: 0rem 2rem 2rem 2rem;
+    border: 0.2rem solid white;
+}
+
+.review-card .review-name{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.review-card .review-desig{
+    font-size: 0.6rem;
+    color: grey;
+    font-weight: 600;
+}
+
+.review-card .review-body{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: grey;
+    text-align: justify;
+}
+
+@media (max-width:1027px){
+    .review-card{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 15rem;
+    height: 18.5rem;
+}
+
+.review-card .review-body{
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    color: grey;
+    text-align: justify;
+}
+}
+
+@media (max-width:830px){
+    .review-card{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 12rem;
+    height: 18.5rem;
+}
+
+.review-card .review-body{
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    color: grey;
+    text-align: justify;
+}
+}
+
+@media (max-width:450px){
+    .review-card{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    width: 8rem;
+    height: 12rem;
+}
+
+.review-card .review-body{
+    margin-top: 0.5rem;
+    font-size: 0.5rem;
+    line-height: 1;
+    color: grey;
+    text-align: justify;
+}
+
+.review-card .review-img{
+    margin-bottom: 0.5rem;
+}
+
+.review-card .review-img img{
+    width: 3rem;
+    border-radius: 0rem 2rem 2rem 2rem;
+    border: 0.1rem solid white;
+}
+
+.review-card .review-name{
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.review-card .review-desig{
+    font-size: 0.4rem;
+    color: grey;
+    font-weight: 600;
+}
+}

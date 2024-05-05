@@ -1,0 +1,81 @@
+.career{
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem 6rem;
+}
+
+.career .career-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.career .career-head .career-head-intro{
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+
+.career-head-intro span{
+    color:#83adf0;
+}
+
+.career .career-head p{
+    font-size: 0.9rem;
+}
+
+.career .career-jobs{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+
+.career-jobs .career-jobs-head{
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.career-jobs .carrer-openings{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+@media(max-width:450px){
+    .career{
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+}
+
+.career .career-head .career-head-intro{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.career .career-head p{
+    font-size: 0.6rem;
+}
+.career .career-jobs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.career-jobs .career-jobs-head{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.career-jobs .carrer-openings{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+}

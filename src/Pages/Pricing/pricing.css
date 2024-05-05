@@ -1,0 +1,104 @@
+.pricing {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+.pricing .pricing-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding: 2rem 6rem;
+}
+
+.grid-span-col-3{
+    grid-column: span 3;
+}
+.pricing-body .pricing-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.pricing-body .pricing-head .pricing-title{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.pricing-body .pricing-head .pricing-headline{
+    font-size: 1.5rem;
+}
+
+.pricing-body .pricing-head .pricing-head-butt{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.pricing-head .pricing-head-butt button{
+    padding: 1rem;
+    background-color: transparent;
+    color: #83adf0 ;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 0.1rem solid #83adf0;
+    border-radius: 1.5rem;
+    transition: all .2s;
+}
+
+.pricing-head .pricing-head-butt button:hover,.give-color{
+    color: white !important;
+    background-color: #83adf0 !important;
+}
+
+@media(max-width:830px){
+    .pricing .pricing-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+    .pricing-body .pricing-head .pricing-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+}
+
+@media(max-width:450px){
+    .pricing-body .pricing-head .pricing-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.pricing-body .pricing-head .pricing-headline{
+    font-size: 0.8rem;
+}
+
+.pricing-head .pricing-head-butt button{
+    padding: 0.5rem;
+    background-color: transparent;
+    color: #83adf0 ;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 0.1rem solid #83adf0;
+    border-radius: 1.5rem;
+    transition: all .2s;
+}
+
+.pricing .pricing-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    place-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.grid-span-col-3{
+    grid-column: span 2;
+}
+
+}
